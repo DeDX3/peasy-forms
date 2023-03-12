@@ -1,0 +1,17 @@
+.footer {
+  height: var(--footer-height);
+  display: flex;
+  align-items: center;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}

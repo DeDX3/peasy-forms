@@ -1,0 +1,24 @@
+.modal-md {
+  max-width: 600px;
+}
+
+.modal-close {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px 10px;
+  transition: 0.3s all;
+  border-radius: 4px;
+}
+
+.modal-close:hover {
+  background-color: #f0f0f0;
+}
+
+.modal-content {
+  border-radius: 16px;
+  color: var(--color-dark);
+}
+
+.modal-body {
+  padding: 24px 32px 32px;
+}

@@ -1,0 +1,50 @@
+.record-using-mic {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.recordable-textarea .pf-textarea {
+  padding-right: 250px;
+}
+
+.template-slider .swiper-slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.template-card {
+  margin-bottom: 24px;
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 12px rgba(53, 23, 113, 0.17);
+  border-radius: 16px;
+  width: 268px;
+  overflow: hidden;
+}
+
+.template-details {
+  padding: 24px;
+  color: var(--color-dark-blue);
+}
+
+.template-image {
+  background-color: #c9ede7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: 2px solid #4f4f4f;
+  width: 16px;
+  height: 16px;
+  transition: 0.3s all;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4f4f4f;
+}

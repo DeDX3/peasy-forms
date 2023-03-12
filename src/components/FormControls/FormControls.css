@@ -1,0 +1,61 @@
+.pf-input-parent {
+  position: relative;
+}
+
+.pf-label {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+.floating-label .pf-label {
+  font-size: 10px;
+  margin-top: 0px;
+  position: absolute;
+  top: -8px;
+  background-color: var(--color-white);
+  padding: 2px;
+  left: 15px;
+}
+
+.pf-input {
+  display: block;
+  border: 1px solid var(--color-black);
+  border-radius: 12px;
+  color: var(--color-black);
+  font-size: 14px;
+  padding: 12px 15px 12px;
+  line-height: 1;
+  height: 50px;
+  width: 100%;
+}
+
+.pf-input::placeholder {
+  color: #4f4f4f;
+}
+
+.pf-control-small .pf-input {
+  height: 40px;
+  padding: 10px 14px 10px;
+}
+
+.pf-textarea {
+  padding-top: 18px;
+  min-height: 50px;
+  height: auto;
+  resize: none;
+}
+
+.pf-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.pf-checkbox .pf-checkbox-input {
+  width: 18px;
+  height: 18px;
+}
+
+.pf-checkbox .pf-checkbox-label {
+  font-size: 14px;
+  margin-left: 10px;
+}

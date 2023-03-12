@@ -1,0 +1,32 @@
+.manage-card {
+  border: 1px solid var(--color-black);
+  border-radius: 12px;
+  margin-bottom: 40px;
+  padding: 32px;
+}
+
+.manage-card-title {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.manage-card-category {
+  font-size: 14px;
+  color: #4f4f4f;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.manage-card .manage-card-actions {
+  margin-top: 20px;
+}
+
+.invoices-table td {
+  border-bottom: 1px solid black;
+  color: #4f4f4f;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
