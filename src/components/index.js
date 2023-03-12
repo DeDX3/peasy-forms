@@ -6,3 +6,4 @@ export { PFTextArea } from "./FormControls/PFTextArea";
 export { SVGIcons } from "./SVGIcons";
 export { PFModal } from "./PFModal";
 export { PFCheckBox } from "./FormControls/PFCheckBox";
+export { PFRadio } from "./FormControls/PFRadio";

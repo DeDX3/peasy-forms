@@ -45,17 +45,21 @@
   resize: none;
 }
 
-.pf-checkbox {
+.pf-checkbox,
+.pf-radio {
   display: flex;
   align-items: center;
 }
 
-.pf-checkbox .pf-checkbox-input {
+.pf-checkbox .pf-checkbox-input,
+.pf-radio .pf-radio-input {
   width: 18px;
   height: 18px;
+  accent-color: var(--color-dark);
 }
 
-.pf-checkbox .pf-checkbox-label {
+.pf-checkbox .pf-checkbox-label,
+.pf-radio .pf-radio-label {
   font-size: 14px;
   margin-left: 10px;
 }

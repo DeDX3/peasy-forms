@@ -7,6 +7,7 @@ export function PFButton({
   variant,
   size,
   handleClick,
+  ...props
 }) {
   let btnVariant = "button ",
     btnSize = "small",
@@ -85,7 +86,7 @@ export function PFButton({
     );
   } else {
     return (
-      <button className={btnClass} onClick={handleClick}>
+      <button className={btnClass} onClick={handleClick} {...props}>
         {children}
       </button>
     );
